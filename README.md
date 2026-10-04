@@ -2,7 +2,7 @@
 
 > **Autonomous Smart Contract Auditing & Anomaly Telemetry at the Speed of Voice.**  
 > Built entirely using voice-driven development with [Wispr Flow](https://wisprflow.ai).  
-> Submitted for **Hacker House Goa 2026 Selection (2:47PM Studio)**.
+> **.
 
 ---
 
