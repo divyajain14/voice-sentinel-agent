@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🛡️ VOICE-SENTINEL — Autonomous Voice-Operated AI Security Agent for Web3
 
-## Getting Started
+> **Autonomous Smart Contract Auditing & Anomaly Telemetry at the Speed of Voice.**  
+> Built entirely using voice-driven development with [Wispr Flow](https://wisprflow.ai).  
+> Submitted for **Hacker House Goa 2026 Selection (2:47PM Studio)**.
 
-First, run the development server:
+---
+
+## ⚡ Overview
+**Voice-Sentinel** bridges spoken human intent directly into autonomous on-chain security. Instead of navigating complex CLI static analyzers or manual code inspection, Web3 engineers pace the room and command an autonomous agent through **Wispr Flow**. 
+
+The agent ingests smart contracts, parses Abstract Syntax Trees (ASTs), executes symbolic re-entrancy vulnerability detection, benchmarks gas consumption, and outputs cryptographic audit verification hashes anchored for Sepolia and SVM testnets.
+
+---
+
+## 🚀 Key Features
+- 🎙️ **Voice-Driven Directive Engine:** Powered by Wispr Flow's zero-friction speech layer for complex technical prompt dictation.
+- 🔍 **Autonomous Vulnerability Scanner:** Detects critical smart contract attack vectors:
+  - Re-entrancy state inconsistencies (`Checks-Effects-Interactions`)
+  - Arithmetic overflow / underflow boundaries
+  - Zero-address assertion gaps
+- 📟 **Real-Time Agent Telemetry Terminal:** Live animated stream showing opcode analysis, AST parsing, and heuristic verification.
+- 📊 **Risk Scoring & Mitigation:** Automated rating system with actionable remediation patches.
+- 🔐 **Cryptographic Proof Generation:** SHA-256 state hash for verifiable audit reporting.
+
+---
+
+## 🛠️ Tech Stack
+- **Framework:** Next.js 14 / 16 (App Router, TypeScript)
+- **Voice Typing Engine:** Wispr Flow
+- **Styling & Cyber UI:** Tailwind CSS, Lucide Icons
+- **Target Network:** Ethereum Sepolia / Solana SVM
+
+---
+
+## 💻 Local Setup
 
 ```bash
+# 1. Clone repository
+git clone https://github.com/YOUR_USERNAME/voice-sentinel-agent.git
+cd voice-sentinel-agent
+
+# 2. Install dependencies
+npm install
+
+# 3. Start development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Open [http://localhost:3000](http://localhost:3000) to deploy your first voice directive.
